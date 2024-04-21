@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/ttf/Vazirmatn-Regular.ttf');
+}
+
+body {
+    font-family: Vazirmatn, sans-serif !important;
+    background-color: rgba(3, 3, 3, 0.082) !important;
+    background-image: url(../imgs/Sprinkle2.svg);
+}
+
+header {
+    background-image: url(../imgs/Colored\ Shapes.svg);
+    color: white !important;
+}
+
+footer {
+    background-image: url(../imgs/Wave.svg);
+    color: white !important;
+}
+
+.btn-primary{
+    background-image: url(../imgs/Sprinkle2.svg);
+    border: 0 !important;
+    color: blue !important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(66, 66, 252) !important;
+}
+
+#mainSlide{
+    background-image: url(../imgs/Sprinkle.svg);
+    color: white !important;
+}
+
+#metaverifay {
+    background-image: url(../imgs/Hexagon.svg);
+    color: white !important;
+}
+
+#irfollower {
+    background-image: url(../imgs/Abstract\ Paper.svg);
+    color: white !important;
+}
+
+#outfollower {
+    background-image: url(../imgs/Mass\ Circles.svg);
+    color: white !important;
+}
+
+#outfollower2{
+    background-image: url(../imgs/Moon.svg);
+    color: white !important;
+}
+#irlike {
+    background-image: url(../imgs/Cloudy.svg);
+    color: white !important;
+}
+
+#outlike {
+    background-image: url(../imgs/Snow.svg);
+    color: white !important;
+}
+
+#views {
+    background-image: url(../imgs/Sound\ Wave.svg);
+    color: white !important;
+}
+
+#customComment {
+    background-image: url(../imgs/Circuit\ Board.svg);
+    color: white !important;
+}
+
+#randomComment {
+    background-image: url(../imgs/Circuit\ Primary.svg);
+    color: white !important;
+}
