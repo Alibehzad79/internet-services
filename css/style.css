@@ -21,7 +21,7 @@ footer {
 
 .btn-primary{
     background-image: url(../imgs/Sprinkle2.svg);
-    border: 0 !important;
+    border: 1px solid !important;
     color: blue !important;
 }
 
@@ -77,3 +77,22 @@ footer {
     background-image: url(../imgs/Circuit\ Primary.svg);
     color: white !important;
 }
+
+.products, .product-detail {
+    background-image: url(../imgs/Moon.svg);
+}
+
+.sidebar {
+    background-image: url(../imgs/Abstract\ Paper.svg);
+    color: white !important;
+}
+
+.details {
+    background-image: url(../imgs/Moon.svg);
+    color: white !important;
+}
+
+/* .active {
+    background-color: black !important;
+    border-radius: 5rem !important;
+} */
