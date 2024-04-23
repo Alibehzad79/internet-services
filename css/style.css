@@ -92,7 +92,19 @@ footer {
     color: white !important;
 }
 
-/* .active {
-    background-color: black !important;
-    border-radius: 5rem !important;
-} */
+.blog {
+    background-image: url(../imgs/Sprinkle.svg);
+}
+
+.btn-danger {
+    background-image: url(../imgs/Cloudy.svg);
+    border: 1px solid blue !important;
+}
+
+.blog-detail {
+    background-image: url(../imgs/Mass\ Circles.svg);
+}
+.blog-img {
+    width: 100% !important;
+    height: 500px !important;
+}
