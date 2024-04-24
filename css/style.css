@@ -108,3 +108,7 @@ footer {
     width: 100% !important;
     height: 500px !important;
 }
+
+.login {
+    background-image: url(../imgs/Abstract\ Paper.svg);
+}

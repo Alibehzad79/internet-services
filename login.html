@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود به سایت</title>
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main class="m-auto mt-5">
+        <div class="container bg-white shadow p-5 rounded d-flex gap-3 align-items-center">
+            <div class="col col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">ایمیل</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">ما هیچوقت ایمیل شما را برای دیگران فاش نخواهیم کرد.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">رمز عبور</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3">
+                        <a href="#" class="my-3">رمز عبورت رو فراموش کردی؟</a>
+                    </div>
+
+                    <div class="mb-3 form-check mt-4">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">مرا به خاطر بسپار</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">ورود</button>
+                    <p class="mt-5">اکانت نداری؟ میتونی از <a href="./register.html">اینجا</a> ثبت نام کنی.</p>
+                </form>
+            </div>
+            <div class="d-none d-md-flex col-md-6">
+                <img src="./imgs/Login-rafiki.png" alt="Login to site" title="Login to Site" class="img-fluid rounded">
+            </div>
+        </div>
+        <div class="container mt-5 d-flex justify-content-center align-items-center gap-4 flex-wrap">
+            <a href="./index.html" class="btn btn-danger">خانه</a>
+            <a href="./products.html" class="btn btn-danger">فروشگاه</a>
+            <a href="./blog.html" class="btn btn-danger">وبلاگ</a>
+            <a href="./about.html" class="btn btn-danger">درباره ما</a>
+        </div>
+    </main>
+</body>
+
+</html>
